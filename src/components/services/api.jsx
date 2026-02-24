@@ -11,7 +11,7 @@ export const fetchNews=async(category="general")=>{
         params: {
           country: "us",
           category: category,
-          token: API_KEY,
+          token: process.env.GNEWS_API_KEY,
           max: 9,
                 },
             }
