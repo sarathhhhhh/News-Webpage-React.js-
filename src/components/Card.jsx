@@ -14,7 +14,7 @@ function Card({ article, index }) {
       onClick={handleClick}
     >
       <img
-        src={article.urlToImage || "https://via.placeholder.com/400"}
+        src={article.image || "https://via.placeholder.com/400"}
         alt={article.title}
         className="h-48 w-full object-cover"
       />

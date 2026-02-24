@@ -16,7 +16,7 @@ function NewsDetails({ articles }) {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <img
-        src={article.urlToImage || "https://via.placeholder.com/800"}
+        src={article.image || "https://via.placeholder.com/800"}
         alt="news"
         className="w-full h-96 object-cover rounded-xl"
       />
