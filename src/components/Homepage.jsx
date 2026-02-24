@@ -12,7 +12,7 @@ function Homepage({ articles,loading }) {
 
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 bg-black">
-      {articles.map((article, index) => (
+      {articles?.map((article, index) => (
         <Card
           key={index}
           article={article}
